@@ -8,6 +8,7 @@ function App() {
     <>
       <div>
         Hi
+        Bye
       </div>
     </>
   )
