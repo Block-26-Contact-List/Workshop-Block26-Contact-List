@@ -44,6 +44,15 @@ td {
   font-family: 'Times New Roman', Times, serif;
 }
 
+.getMoreInfo:hover {
+  color: green;
+  cursor: pointer;
+
+}
+
+
+
+
 
 
 
