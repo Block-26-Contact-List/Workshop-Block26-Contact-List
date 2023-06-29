@@ -32,7 +32,7 @@ function ContactList() {
 
 
     return (    
-    <table>
+    <table className = "tableStyles">
         <thead>
             <tr>
                 <th colSpan="3">Contact List</th>
@@ -40,9 +40,9 @@ function ContactList() {
         </thead>
         <tbody>
             <tr>
-                <td>Name</td>
-                <td>Email</td>
-                <td>Phone</td>
+                <td className="info">Name</td>
+                <td className="info">Email</td>
+                <td className="info">Phone</td>
             </tr>
 
             {contacts.map((contact)=> {

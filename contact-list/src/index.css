@@ -11,3 +11,39 @@
   -webkit-text-size-adjust: 100%;
 }
 
+/*table*/
+th {
+  color: green;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 28pt;
+}
+  
+table {
+  border-collapse: collapse;
+  margin: auto;
+  width: 100%;
+  max-width: 800px;
+  margin-top: 60px;
+}
+
+tr  {
+  color: white;
+  font-family: sans-serif;
+  padding: 20px;
+  margin-top: 80px;
+  border: 1px solid white;
+ }
+
+.info {
+  color: #6CC7F4;
+  font-size: 16pt;
+}
+
+td {
+  font-size: 18pt;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
