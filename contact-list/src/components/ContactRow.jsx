@@ -7,7 +7,7 @@ function ContactRow({ setSelectedContactId, contact  }) {
         setSelectedContactId(contact.id);
       }}
       >
-        <td>className="getMoreInfo"{contact.name}</td>
+        <td className="getMoreInfo">{contact.name}</td>
         <td>{contact.email}</td>
         <td>{contact.phone}</td>
     </tr>
