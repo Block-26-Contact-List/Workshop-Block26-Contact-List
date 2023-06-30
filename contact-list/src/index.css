@@ -51,8 +51,19 @@ td {
 }
 
 
+.backbutton {
+  background-color: #008CBA;
+  color: white; 
+  padding: 12px 24px; 
+  border: none;
+  cursor: pointer; 
+  font-size: 16px; 
+  border-radius: 5px; 
+}
 
-
-
+.backbutton {
+  cursor: pointer;
+  color: #242424;
+}
 
 
