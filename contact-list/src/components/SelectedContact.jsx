@@ -39,7 +39,7 @@ function SelectedContact({selectedContactId, setSelectedContactId}) {
         )}
 
         
-
+ <button onClick={() => setSelectedContactId(null)}>Back to List</button>
 
 
 
