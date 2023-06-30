@@ -10,7 +10,7 @@ function SelectedContact({selectedContactId, setSelectedContactId}) {
         const response = await fetch(`http://fsa-jsonplaceholder-69b5c48f1259.herokuapp.com/users/${selectedContactId}`);
         const data = await response.json();
         setContact(data); 
-        console.log("Error", error);
+        console.log("Contact:", data);
 
       } catch (error) {
         console.log("Error", error);
@@ -44,7 +44,10 @@ function SelectedContact({selectedContactId, setSelectedContactId}) {
   )
 }
 
-export default SelectedContact
+export default SelectedContact;
+
+
+
 
 
 
