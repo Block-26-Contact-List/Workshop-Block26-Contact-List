@@ -51,11 +51,11 @@ td {
 
 /*Selected Component*/
 h2 {
-  font-family: cursive;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color:  #008CBA;
 }
 
-
-.backbutton {
+.backButton {
   background-color: #008CBA;
   color: white; 
   padding: 12px 24px; 
@@ -65,7 +65,7 @@ h2 {
   border-radius: 5px; 
 }
 
-.backbutton {
+.backButton:hover {
   cursor: pointer;
   color: #242424;
 }
