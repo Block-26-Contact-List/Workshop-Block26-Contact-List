@@ -19,9 +19,10 @@ function App() {
     <ContactList
     setSelectedContactId={setSelectedContactId}/>
     )}
-    
     </>
   )
 }
 
 export default App
+
+

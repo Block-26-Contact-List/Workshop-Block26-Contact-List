@@ -28,13 +28,13 @@ function ContactList({ setSelectedContactId, contact }) {
     },[]);
 
     return (    
-    <table className = "tableStyles">
-        <thead>
+      <table className = "tableStyles">
+          <thead>
             <tr>
                 <th colSpan="3">Contact List</th>
             </tr>
-        </thead>
-        <tbody>
+         </thead>
+         <tbody>
             <tr>
                 <td className="info">Name</td>
                 <td className="info">Email</td>
@@ -46,8 +46,12 @@ function ContactList({ setSelectedContactId, contact }) {
                 setSelectedContactId={setSelectedContactId}/>
             })} 
         </tbody>
-    </table>
+     </table>
   )
 }
 
 export default ContactList
+
+
+
+
