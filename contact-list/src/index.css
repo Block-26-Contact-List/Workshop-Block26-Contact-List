@@ -47,7 +47,11 @@ td {
 .getMoreInfo:hover {
   color: green;
   cursor: pointer;
+}
 
+/*Selected Component*/
+h2 {
+  font-family: cursive;
 }
 
 

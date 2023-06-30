@@ -41,10 +41,10 @@ function ContactList({ setSelectedContactId, contact }) {
                 <td className="info">Phone</td>
             </tr>
 
-            {contacts.map((contact)=> {
-                    return <ContactRow key={contact.id} contact={contact} />;
-             })
-            }
+            {contacts.map((contact) => {
+                return <ContactRow key={contact.id} contact={contact} 
+                setSelectedContactId={setSelectedContactId}/>
+            })} 
         </tbody>
     </table>
   )

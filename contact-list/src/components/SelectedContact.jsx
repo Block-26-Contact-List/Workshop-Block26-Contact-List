@@ -38,15 +38,12 @@ function SelectedContact({selectedContactId, setSelectedContactId}) {
           </>
         )}
 
-        
- <button className="backbutton" onClick={() => setSelectedContactId(null)}>Back to List</button>
-
-
-
-
+        <button onClick={() => setSelectedContactId(null)}>Back to List</button>
     </div>
     </>
   )
 }
 
 export default SelectedContact
+
+
