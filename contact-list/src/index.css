@@ -16,13 +16,14 @@ th {
   color: green;
   font-family: 'Space Grotesk', sans-serif;
   font-size: 28pt;
+  padding: 10px;
 }
   
 table {
   border-collapse: collapse;
   margin: auto;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   margin-top: 60px;
 }
 
