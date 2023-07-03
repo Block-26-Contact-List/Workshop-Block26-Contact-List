@@ -43,6 +43,7 @@ tr  {
 td {
   font-size: 18pt;
   font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
 }
 
 .getMoreInfo:hover {
@@ -70,5 +71,6 @@ h2 {
   cursor: pointer;
   color: #242424;
 }
+
 
 
